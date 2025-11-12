@@ -115,6 +115,25 @@ Basic suggested workflow (to be formalized later):
 
 ---
 
+## Deployment / Hosting
+The project is hosted on Render.com.
+
+### Render Configuration
+
+**Build & Deploy**
+* **Repository:** `https://github.com/AirSense-Project/Airsense-V3.git`
+* **Branch:** The deployment branch (e.g., `main` or `develop`)
+* **Root Directory:** `Airsense-V3` (Adjust if the app is in a subdirectory)
+* **Build Command:** `npm install && npm run build`
+* **Start Command:** `npm start`
+* **Auto-Deploy:** On Commit
+
+> **Note on "Git Credentials":** You do not need to set Git credentials. By connecting your GitHub/GitLab account to Render, Render automatically gets permission to access the repository.
+
+**Environment (Environment Variables)**
+*These variables must be configured in the "Environment" tab on Render. Ask for the values through a secure channel.*
+
+
 ## Roadmap
 - **Release 1 (MVP):** Map + station markers + filters by municipality/year/compound + legend + compound dictionary.  
 - **Release 2:** Auth (registration/login) and improved analytics.  
