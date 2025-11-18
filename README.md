@@ -50,7 +50,7 @@ AirSense is a web application that visualizes historical air quality data across
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/AirSense-Project/Airsense-V2.git
+git clone https://github.com/AirSense-Project/Airsense-V3.git
 ```
 
 2. Install dependencies:
